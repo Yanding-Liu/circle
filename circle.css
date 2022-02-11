@@ -1,0 +1,120 @@
+/*
+.circle {
+  float: left;
+  width: 8.33%;
+  height: 8.33vw;
+  border-radius: 4.165vw;
+  background-color: silver;
+  text-align: center;
+  margin: 0;
+}
+*/
+#container {
+  display: flex;
+}
+.pie {
+  border-radius: 50%;
+  background-color: silver;
+}
+.pie circle {
+  fill: none;
+  stroke-width: 32;
+  stroke-dasharray: 8.6 100;
+}
+
+#F {
+  stroke-dashoffset: -8.37;
+}
+#C {
+  stroke-dashoffset: -16.7;
+}
+#G {
+  stroke-dashoffset: -25.03;
+}
+#D {
+  stroke-dashoffset: -33.36;
+}
+#A {
+  stroke-dashoffset: -41.69;
+}
+#E {
+  stroke-dashoffset: -50.05;
+}
+#B {
+  stroke-dashoffset: -58.45;
+}
+#Gb {
+  stroke-dashoffset: -66.85;
+}
+#Db {
+  stroke-dashoffset: -75.25;
+}
+#Ab {
+  stroke-dashoffset: -83.7;
+}
+#Eb {
+  stroke-dashoffset: -92.2;
+}
+#Bb {
+  stroke-dashoffset: 0;
+}
+
+/*
+#F {
+    background: hsl(90,100%,75%);
+}
+#C {
+    background: hsl(60,100%,75%);
+}
+#G {
+    background: hsl(30,100%,75%);
+}
+#D {
+    background: hsl(0,100%,75%);
+}
+#A {
+    background: hsl(330,100%,75%);
+}
+#E {
+    background: hsl(300,100%,75%);
+}
+#B {
+    background: hsl(270,100%,75%);
+}
+#Fs {
+    background: hsl(240,100%,75%);
+}
+#Gb {
+    background: hsl(240,100%,75%);
+}
+#Cs {
+    background: hsl(210,100%,75%);
+}
+#Db {
+    background: hsl(210,100%,75%);
+}
+#Gs {
+    background: hsl(180,100%,75%);
+}
+#Ab {
+    background: hsl(180,100%,75%);
+}
+#Ds {
+    background: hsl(150,100%,75%);
+}
+#Eb {
+    background: hsl(150,100%,75%);
+}
+#As {
+    background: hsl(120,100%,75%);
+}
+#Bb {
+    background: hsl(120,100%,75%);
+}
+#Es {
+    background: hsl(90,100%,75%);
+}
+#Bs {
+    background: hsl(60,100%,75%);
+}
+*/
